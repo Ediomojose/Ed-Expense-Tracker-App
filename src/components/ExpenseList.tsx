@@ -59,7 +59,7 @@ const ExpenseList = ({ expenses, onDelete }: Props) => {
           <td className={`px-6 py-4`}>
             $
             {formatNumberWithCommas(
-              expenses
+              +expenses
                 .reduce((acc, expense) => expense.amount + acc, 0)
                 .toFixed(2)
             )}
