@@ -1,4 +1,3 @@
-import React from "react";
 import { formatNumberWithCommas } from "../utils/NumberFormatter";
 
 interface Expense {

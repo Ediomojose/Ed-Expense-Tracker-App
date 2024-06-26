@@ -1,4 +1,3 @@
-import React from "react";
 import { categories } from "../utils/Categories";
 import { useForm } from "react-hook-form";
 import { z } from "zod";
